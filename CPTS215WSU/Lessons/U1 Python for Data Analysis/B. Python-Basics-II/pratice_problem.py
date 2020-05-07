@@ -21,6 +21,7 @@ def first_five_words(file):
 	'''
 	for i in range(5):
 		line = file.readline()
+		# Note that readline take the whole line with \n at the end already.
 		print("%s" %(line), end = "")
 
 def main():

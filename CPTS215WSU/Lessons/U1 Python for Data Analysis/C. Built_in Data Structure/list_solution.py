@@ -45,11 +45,9 @@ def pretty_print_order(count_list,word):
 			count_list[ord(word[i].lower())-ord('a')] = 0
 
 def main():
-	"""
 	print("Please enter your word: ")
 	word = input()
-	"""
-	count_list = word_char_count("woffrdf")
-	pretty_print_order(count_list,"woffrdf")
+	count_list = word_char_count("word")
+	pretty_print_order(count_list,"word")
 
 main()

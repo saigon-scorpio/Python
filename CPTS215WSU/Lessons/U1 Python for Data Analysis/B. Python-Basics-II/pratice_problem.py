@@ -3,7 +3,7 @@ def open_input_file():
 	Read the words.txt in current directory
 	Return the file object associated with words.txt
 	'''
-	return open("words.txt","r")
+	return open(r"words.txt","r")
 
 def close_file(file):
 	'''

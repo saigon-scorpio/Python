@@ -1,2 +1,2 @@
 # Python
-Root repository holds all Python related project
+Root repository holds some Python related project
